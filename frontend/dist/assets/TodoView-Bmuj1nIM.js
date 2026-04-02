@@ -1,1 +1,0 @@
-import{_ as s}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{o as t,c as n,a as o}from"./index-DBlVrO7U.js";const r={},a={class:"page"};function c(l,e){return t(),n("div",a,[...e[0]||(e[0]=[o("h1",null,"Todo",-1),o("p",null,"Ez egy ideiglenes teendők oldal.",-1)])])}const _=s(r,[["render",c]]);export{_ as default};

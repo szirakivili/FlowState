@@ -14,7 +14,6 @@
           <router-link to="/">Dashboard</router-link>
           <router-link to="/calendar">Naptár</router-link>
           <router-link to="/todos">Teendők</router-link>
-          <router-link to="/admin">Admin</router-link>
         </nav>
 
         <button class="logout" @click="logout">Kijelentkezés</button>
@@ -88,25 +87,38 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
   padding: 1rem 2rem;
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.92);
   border-bottom: 1px solid rgba(15, 23, 42, 0.08);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(14px);
   position: sticky;
   top: 0;
   z-index: 10;
 }
 .nav {
   display: flex;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.75rem;
 }
 .nav a {
   color: #334155;
   text-decoration: none;
   font-weight: 600;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.04);
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+.nav a:hover {
+  background: rgba(99, 102, 241, 0.12);
 }
 .nav a.router-link-active {
-  color: #6366f1;
+  color: white;
+  background: linear-gradient(135deg, #6366f1, #10b981);
 }
 .logout {
   border: none;
@@ -122,6 +134,9 @@ body {
 .app-content {
   flex: 1;
   padding: 2rem;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 }
 .card,
 .dashboard-card {

@@ -1,1 +1,0 @@
-import{_ as n}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{o,c as r,a}from"./index-DBlVrO7U.js";const s={},t={class:"page"};function l(c,e){return o(),r("div",t,[...e[0]||(e[0]=[a("h1",null,"Calendar",-1),a("p",null,"Ez egy ideiglenes naptár oldal.",-1)])])}const _=n(s,[["render",l]]);export{_ as default};

@@ -1,1 +1,0 @@
-import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{o as s,c as t,a as n}from"./index-DBlVrO7U.js";const a={},r={class:"page"};function c(i,e){return s(),t("div",r,[...e[0]||(e[0]=[n("h1",null,"Admin",-1),n("p",null,"Ez egy ideiglenes admin oldal.",-1)])])}const m=o(a,[["render",c]]);export{m as default};
