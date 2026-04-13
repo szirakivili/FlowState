@@ -17,7 +17,7 @@ Tagok:
    - Mongo DB
    - Vue
 3. Nyisd meg VS Code-ban!
-4. Indíts egy Mongo DB-t az alábbi paranccsal: `¯\_(ツ)_/¯ nem írta ki az AI xD`
+4. Indíts egy Mongo DB-t az alábbi paranccsal: `& "C:\Program Files\MongoDB\Server\8.2\bin\mongod.exe" --dbpath "C:\data\db"`
 5. Nyiss két terminált
    - az egyikben lépj a `frontend`, a másikban a `backend` mappába és mindkettőben futtasd az alábbi parancsokat:
    - `npm install`, majd `npm run dev`
